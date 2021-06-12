@@ -1,0 +1,30 @@
+
+body{background-color: black;width: 100%;height: 1500px;box-sizing: border-box;display: flex;}
+
+
+.big-box{background-color: cadetblue;height:50px;width: 1000px;;display: flex; justify-content: space-evenly;align-content:center;font-size:large;animation-name: DISCO;animation-duration: 3s;animation-iteration-count: infinite;}
+
+@keyframes DISCO {0% {background-color: cyan;left: 50px;
+}
+30% { top: 200px;}
+
+to {background-color: darkgoldenrod;right: 200px;left: 100px;}}
+
+
+.circle{height: 100px;width: 100px;border-radius: 8%; background-color: chartreuse;;display: flex;margin-top: 200px;margin-right: 500px;animation-name: DISCO;animation-duration: 1s;animation-iteration-count: infinite;position: relative;}
+
+header{background-color: aqua;
+    height: 80px;width: 100%;display: flex;align-items: left;justify-content: safe;box-sizing: border-box;animation-name: DISCO;animation-duration: 3s;animation-iteration-count: infinite; animation-direction: alternate;}
+    img{height: 100%; }
+    header ul{list-style: none;
+    padding:0%;
+    margin: 0%;
+    display:flex;justify-content: space-evenly; }
+    header ul li{margin-left: 30px;}
+    header ul li a{ text-decoration: none; color: black;}
+
+ h3{background-color: chocolate;height: 100%; width: 100%;display: flex;align-items: center;box-sizing: border-box;ju
+    
+
+
+    animation-iteration-count: infinite; animation-direction: alternate; 
